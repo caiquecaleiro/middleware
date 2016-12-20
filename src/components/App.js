@@ -1,9 +1,11 @@
 import React from 'react';
 
+import UserListContainer from '../containers/UserListContainer';
+
 function App() {
   return (
-    <div>
-      Middleware!
+    <div className="container">
+      <UserListContainer />
     </div>
   );
 }
