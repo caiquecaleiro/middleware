@@ -12,7 +12,7 @@ function UserList({ users }) {
   });
 
   return (
-    <div>{list}</div>
+    <div className="user-list">{list}</div>
   );
 }
 
